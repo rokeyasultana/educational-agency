@@ -1,0 +1,48 @@
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: #00216E;
+    color: white;
+    border: none;
+  }
+  
+  .column {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .column2 {
+    display: flex;
+  }
+  .ahz{
+    font-size:35px;
+  }
+  
+  .uk {
+    border-left: 4px solid white;
+    margin-left: 30px;
+  border-width:5px ;
+  }
+  .university{
+    margin-left:15px;
+    font-size: 25px;
+    text-align: left;
+  }
+  .button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .container1 {
+      grid-template-columns: 1fr;
+    }
+  
+  }
+
+  
